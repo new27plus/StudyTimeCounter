@@ -1,3 +1,4 @@
+import { HomePage } from './HomePage'
 @Entry
 @Component
 struct Index {
@@ -5,7 +6,7 @@ struct Index {
     Column() {
       Tabs({ barPosition: BarPosition.End }) {
         TabContent() {
-          Text('首页的内容').fontSize(30)
+          HomePage()
         }
         .tabBar('首页')
 

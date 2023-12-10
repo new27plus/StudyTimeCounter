@@ -1,4 +1,5 @@
 import { HomePage } from './HomePage'
+import { SettingPage } from './SettingPage'
 @Entry
 @Component
 struct Index {
@@ -16,7 +17,7 @@ struct Index {
         .tabBar('数据')
 
         TabContent() {
-          Text('发现的内容').fontSize(30)
+          SettingPage()
         }
         .tabBar('设置')
       }

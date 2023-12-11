@@ -1,4 +1,3 @@
-@Preview
 @Component
 export struct SettingPage {
   @State darkModel: boolean = false
@@ -44,7 +43,7 @@ export struct SettingPage {
           Image('/images/icon/icon_arrow.svg')
             .height(20)
             .fillColor(0xAAAAAA)
-            .margin({right: 10})
+            .margin({ right: 10 })
         }
         .width('100%')
         .height(40)
@@ -73,7 +72,7 @@ export struct SettingPage {
       .borderRadius(15)
       .shadow({ radius: 15, color: 0xD1D1D1, offsetY: 5 })
       .margin({ top: 123 })
-      .padding({top: 20, bottom: 20})
+      .padding({ top: 20, bottom: 20 })
     }
     .width('100%')
     .height('100%')

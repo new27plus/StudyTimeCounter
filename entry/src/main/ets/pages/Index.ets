@@ -1,3 +1,4 @@
+import { DataPage } from './DataPage'
 import { HomePage } from './HomePage'
 import { SettingPage } from './SettingPage'
 @Entry
@@ -12,7 +13,7 @@ struct Index {
         .tabBar('首页')
 
         TabContent() {
-          Text('推荐的内容').fontSize(30)
+          DataPage()
         }
         .tabBar('数据')
 
@@ -21,6 +22,7 @@ struct Index {
         }
         .tabBar('设置')
       }
+      .scrollable(false)
 
     }
     .width('100%')
